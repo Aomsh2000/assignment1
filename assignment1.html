@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+<title>Log in</title>
+<style>
+    body{
+        background-image: url("./pink-1121216_1280.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+   div {
+        margin-top:10vh;
+        margin-bottom: 10vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    section{
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgba(239, 226, 252, 0.76);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem;
+        row-gap: 0.5rem;
+    }
+    h1{
+        color: rgb(161, 3, 161);
+    }
+    input{
+        height: 2rem;
+        width: 15rem;
+    }
+    label{
+        color: whitesmoke;
+        font-size:0.8rem;
+        text-align: left;
+        width: 100%;
+    }
+    button{
+        border: 1px solid rgb(161, 3, 161);
+        height: 2rem;
+        width: 15rem;
+        border-radius: 2px;
+        background-color: rgb(161, 3, 161);
+        color: white;
+    }
+</style>
+</head>
+<body>
+  
+
+   <nav>
+   </nav>
+    <div>
+  
+   <section>
+    <h1>
+        log in
+    </h1>
+        <label>Name</label>
+    <input type="text" title="Name" required placeholder="Name"/>
+    <label>E-mail</label>
+    <input type="email" required title="E-mail" placeholder="E-mail"/>
+    <label>Phone Number</label>
+    <input title="PhoneNumber" type="number" required maxlength="10" placeholder="PhoneNumber"/>
+   <label>Password</label>
+    <input type="password" title="password" required placeholder="password"/>
+    <button>
+        Send
+    </button>
+   </section>
+   
+
+</div>
+
+
+</body>
+<footer>
+
+</footer>
+</html>
